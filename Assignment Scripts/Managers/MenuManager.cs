@@ -32,6 +32,7 @@ public class MenuManager : MonoBehaviour
             if (menu != null)
             {
                 Menu newMenu = Instantiate(menu);
+                newMenu.GetComponent<RectTransform>().SetParent(transform) ;
             }
         }
     }

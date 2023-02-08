@@ -42,6 +42,7 @@ public class ServerController : MonoBehaviourPunCallbacks
         if (PhotonNetwork.CountOfRooms == 0)
         {
             PhotonNetwork.CreateRoom("Room1");
+
         }
         else
         {
